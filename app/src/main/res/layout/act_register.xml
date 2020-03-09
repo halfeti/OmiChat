@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/ln_register"
+        android:gravity="center">
+
+    <ImageView
+            android:padding="30dp"
+            android:textSize="40sp"
+            android:paddingTop="40dp"
+            android:paddingBottom="60dp"
+            android:src="@drawable/logomobile"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_weight="0.8"
+            android:layout_height="0dp"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_weight="1"
+                  android:layout_gravity="center"
+                  android:orientation="vertical"
+                  android:layout_height="0dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content"
+                       android:src="@drawable/ic_username"
+                       android:layout_gravity="center_vertical"
+                       android:layout_height="wrap_content"/>
+            <EditText
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:id="@+id/edt_userName"
+                    android:backgroundTint="#00FFFFFF"
+                    android:textColorHint="@color/colorWhite"
+                    android:padding="5dp"
+                    android:hint="@string/user_name"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"/>
+            <ImageView
+                    android:layout_width="30dp"
+                    android:visibility="invisible"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/alert_circle"
+                    android:id="@+id/alert_regis_user"/>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:background="@color/colorWhite"
+                   android:layout_height="0.5dp"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_marginTop="20dp"
+                      android:orientation="horizontal"
+                      android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content"
+                       android:src="@drawable/email_outline"
+                       android:layout_gravity="center_vertical"
+                       android:layout_height="wrap_content"/>
+            <EditText
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:id="@+id/edt_email"
+                    android:backgroundTint="#00FFFFFF"
+                    android:textColorHint="@color/colorWhite"
+                    android:padding="5dp"
+                    android:hint="@string/email"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="320dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"/>
+            <ImageView
+                    android:layout_width="30dp"
+                    android:visibility="invisible"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/alert_circle"
+                    android:id="@+id/alert_regis_email"/>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:background="@color/colorWhite"
+                   android:layout_height="0.5dp"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_marginTop="20dp"
+                      android:orientation="horizontal"
+                      android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content"
+                       android:src="@drawable/pass_outline"
+                       android:layout_gravity="center_vertical"
+                       android:layout_height="wrap_content"/>
+            <EditText
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:id="@+id/edt_password"
+                    android:backgroundTint="#00FFFFFF"
+                    android:textColorHint="@color/colorWhite"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:textColor="@color/colorWhite"
+                    android:hint="@string/password"
+                    android:textSize="18sp"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"/>
+            <ImageView
+                    android:layout_width="30dp"
+                    android:visibility="invisible"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/alert_circle"
+                    android:id="@+id/alert_regis_password"/>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:background="@color/colorWhite"
+                   android:layout_height="0.5dp"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_marginTop="20dp"
+                      android:orientation="horizontal"
+                      android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content"
+                       android:src="@drawable/pass_outline"
+                       android:layout_gravity="center_vertical"
+                       android:layout_height="wrap_content"/>
+            <EditText
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:backgroundTint="#00FFFFFF"
+                    android:id="@+id/edt_password_confirm"
+                    android:textColorHint="@color/colorWhite"
+                    android:inputType="textPassword"
+                    android:padding="5dp"
+                    android:hint="@string/confirmpassword"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"/>
+            <ImageView
+                    android:layout_width="30dp"
+                    android:visibility="invisible"
+                    android:layout_height="30dp"
+                    app:srcCompat="@drawable/alert_circle"
+                    android:id="@+id/alert_regis_confirm_password"/>
+        </LinearLayout>
+        <ImageView android:layout_width="match_parent"
+                   android:background="@color/colorWhite"
+                   android:layout_marginBottom="80dp"
+                   android:layout_height="0.5dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:gravity="center"
+            android:layout_weight="0.7"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_goTologin"
+                android:text="@string/back_to_login"
+                android:textSize="14sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/bg_border_btn"
+                android:textColor="@color/colorWhite"
+                android:layout_width="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="wrap_content"/>
+
+        <Button
+                android:layout_weight="1"
+                android:id="@+id/btn_register"
+                android:text="@string/create"
+                android:textSize="14sp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:background="@drawable/bg_border_btn"
+                android:textColor="@color/colorWhite"
+                android:imeOptions="actionSend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

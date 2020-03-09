@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:id="@+id/ln_AddMember"
+              android:layout_height="match_parent">
+    <include layout="@layout/actionbar_member" />
+    <EditText
+            android:enabled="true"
+            android:lines="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_edt_search"
+            android:layout_margin="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="35dp"
+            android:hint="@string/search"
+            android:id="@+id/edt_search_member_bar"/>
+    <Button
+            android:id="@+id/btn_created"
+            android:layout_gravity="center"
+            android:textColor="@color/colorWhite"
+            android:background="@drawable/bg_border_btn"
+            android:text="Created "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_add_member"
+                android:layout_weight="1"
+                android:padding="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+        <ProgressBar
+                android:id="@+id/progressBar"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

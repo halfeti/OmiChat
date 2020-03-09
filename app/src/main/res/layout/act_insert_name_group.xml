@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:id="@+id/ln_createNewGroup"
+              android:layout_height="match_parent">
+    <include layout="@layout/actionbar_member" />
+    <EditText
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_edt_search"
+            android:layout_margin="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_height="49dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:id="@+id/edt_name_group"
+            android:hint="@string/name_group"/>
+    <Button
+            android:text="@string/add_member"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_frame"
+            android:textColor="#fff"
+            android:id="@+id/btn_add_member"/>
+
+
+</LinearLayout>

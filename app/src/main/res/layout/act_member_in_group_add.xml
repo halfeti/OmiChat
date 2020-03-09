@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/ln_member_add_to_group"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <include layout="@layout/actionbar_member"
+             android:layout_width="match_parent"
+             android:layout_height="20dp"
+             android:layout_weight="0.2"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_weight="3"
+                  android:background="@color/colorWhite"
+                  android:id="@+id/wrapper_member_to_add"
+                  android:orientation="vertical"
+                  android:layout_height="0dp">
+        <LinearLayout android:layout_width="match_parent"
+                      android:orientation="horizontal"
+                      android:layout_height="wrap_content">
+            <EditText android:layout_width="0dp"
+                      android:hint="@string/searching"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginRight="10dp"
+                      android:layout_weight="0.5"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/edt_search_member_to_add"/>
+            <Button android:layout_width="0dp"
+                    android:text="@string/add"
+                    android:id="@+id/confirm_add_member_in_group"
+                    android:textColor="@color/colorWhite"
+                    android:layout_weight="0.2"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/button_frame"
+                    android:layout_height="35dp"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:background="@color/colorWhite"
+                android:id="@+id/rcv_member_list_to_add"
+                android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+</LinearLayout>

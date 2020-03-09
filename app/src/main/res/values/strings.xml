@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">OmiChat</string>
+    <string name="Omi">Om!Chat</string>
+    <string name="user_name">Tên người dùng</string>
+    <string name="email">Email</string>
+    <string name="password">Mật Khẩu</string>
+    <string name="create">Tạo tài khoản</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="tin_nhan">Tin Nhắn</string>
+    <string name="ca_nhan">Cá Nhân</string>
+    <string name="np">NP</string>
+    <string name="trang_chu">Trang chủ</string>
+    <string name="tien_ich">Tiện ích</string>
+    <string name="du_an">Dự án</string>
+    <string name="app_text">Bạn: đá</string>
+    <string name="app_name_team">HaHa</string>
+    <string name="app_time">Lúc: 22:22 ngày 24/06/2019</string>
+    <string name="ominext">Ominext</string>
+    <string name="nguoi_tham_gia">6 nguoi tham gia</string>
+    <string name="send_message">Nhập tin nhắn</string>
+    <string name="forgot_your_password">Quên mật khẩu?</string>
+    <string name="confirmpassword">Nhập lại Mật Khẩu</string>
+    <string name="search">Search</string>
+    <string name="yes">Đúng</string>
+    <string name="name_group">Tên Nhóm</string>
+    <string name="add_member">Thêm thành viên</string>
+    <string name="member">Thành viên</string>
+    <string name="out_group">Rời khỏi nhóm</string>
+    <string name="add">Thêm</string>
+    <string name="searching">Tìm kiếm</string>
+    <string name="remember_pass">Ghi nhớ</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký tài khoản</string>
+    <string name="pass">Mật khẩu</string>
+    <string name="back_to_login">Trở về đăng nhập</string>
+    <string name="profile_page">Trang Cá Nhân</string>
+    <string name="Edit">Sửa</string>
+    <string name="done">Xong</string>
+    <string name="your_phone_number">Số điện thoại</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="gender">Giới tính</string>
+    <string name="delete_from_group">Xóa khỏi nhóm</string>
+
+</resources>

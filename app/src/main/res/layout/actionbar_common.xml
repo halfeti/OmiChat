@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:background="@color/colorPrimary"
+              android:gravity="center_vertical"
+              android:layout_height="60dp">
+    <ImageView
+            android:layout_weight="0.2"
+            android:visibility="invisible"
+            android:padding="15dp"
+            android:tint="@color/colorWhite"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_textsms"/>
+
+    <TextView
+            android:gravity="center"
+            android:layout_weight="3"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:text="@string/tin_nhan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    <ImageView
+            android:layout_weight="0.2"
+            android:visibility="invisible"
+            android:id="@+id/iv_delete_group"
+            android:layout_gravity="right"
+            android:padding="15dp"
+            android:tint="@color/colorWhite"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/member_group"/>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/member_item"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:gravity="center_vertical"
+              android:layout_margin="3dp"
+              android:layout_height="80dp">
+    <LinearLayout
+            android:layout_weight="0.6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_image_add_member_ingroup"
+                android:src="@drawable/ic_1"
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_weight="2.5"
+                  android:layout_height="match_parent"
+                  android:gravity="center_vertical"
+                  android:orientation="vertical">
+        <TextView
+                android:text="TextView"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name_member_ingroup"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        <TextView
+                android:text="ID: TextView"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_id_member_ingroup"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:padding="10dp"
+            android:gravity="center">
+        <CheckBox
+                android:textColor="@color/colorWhite"
+                android:id="@+id/checkbox_ingroup"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

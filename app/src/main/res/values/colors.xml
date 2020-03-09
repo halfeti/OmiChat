@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7F3D</color>
+    <color name="colorPrimaryDark">#FF7F3D</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteHint">#50FFFFFF</color>
+    <color name="colorPrimaryHint">#50008577</color>
+    <color name="colorBlackHin">#808080</color>
+    <color name="orange">#F2B561</color>
+    <color name="colorBlack">#000000</color>
+    <color name="sky_blue">#757575</color>
+    <color name="colorbtn">#CC4846</color>
+    <color name="colorSkyBlue">#415370</color>
+</resources>

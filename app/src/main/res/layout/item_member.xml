@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/member_item"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:gravity="center_vertical"
+              android:layout_margin="3dp"
+              android:layout_height="100dp">
+    <LinearLayout
+            android:layout_weight="0.7"
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent">
+        <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_image_add_member"
+                android:padding="5dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_1"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_1"
+                android:layout_width="50dp"
+                android:scaleType="centerCrop"
+                android:layout_height="50dp"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:paddingLeft="5dp"
+                  android:layout_weight="2.5"
+                  android:layout_height="match_parent"
+                  android:gravity="center_vertical"
+                  android:orientation="vertical">
+        <TextView
+                android:lines="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="TextView"
+                android:paddingLeft="5dp"
+                android:textColor="@color/colorBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name_member"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+        <TextView
+                android:lines="1"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="ID: TextView"
+                android:paddingLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_id_member"/>
+    </LinearLayout>
+
+
+    <CheckBox
+    android:gravity="center"
+    android:layout_weight="0.2"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:text=""
+    android:textColor="@color/colorWhite"
+    android:id="@+id/checkbox"
+    android:focusable="false"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"/>
+    <!--<LinearLayout-->
+            <!--android:layout_weight="0.5"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_height="match_parent">-->
+
+        <!--<ImageView android:layout_width="wrap_content"-->
+                   <!--android:id="@+id/check"-->
+                   <!--android:src="@drawable/ic_un_check"-->
+                   <!--android:layout_gravity="center_vertical"-->
+                   <!--android:padding="3dp"-->
+                   <!--android:layout_height="wrap_content"/>-->
+
+        <!--<ImageView android:layout_width="wrap_content"-->
+                   <!--android:id="@+id/uncheck"-->
+                   <!--android:visibility="gone"-->
+                   <!--android:src="@drawable/ic_check"-->
+                   <!--android:layout_gravity="center_vertical"-->
+                   <!--android:padding="3dp"-->
+                   <!--android:layout_height="wrap_content"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>
